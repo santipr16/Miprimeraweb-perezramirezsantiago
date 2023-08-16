@@ -1,0 +1,12 @@
+<form method="post">
+    {% csrf_token %}
+    <label for="nombre_mas">Nombre Mascota:</label>
+    <input type="text" name="Nombre" required><br>
+    <label for="Tipo">Tipo de la Mascota:</label>
+    <input type="text" name="Tipo" required><br>
+    <label for="raza">Raza:</label>
+    <input type="text" name="raza" required><br>
+    <label for="dueño">Dueño:</label>
+    <input type="text" name="Dueñoo" required><br>
+    <button type="submit">Guardar</button>
+</form>
